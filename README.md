@@ -6,5 +6,6 @@ Unlike ascii which is intended for conversion of: human readable text to machine
 How does Base64 works: (Base64 represents binary in 6bits per character (unlike 8bits per character for ascii)).<br />
 <b span="Base64 calc">Example</b>
 1. Take an standard ascii binary number, i.e: code point 65, in binary (0100 0001) represents character 'A' in binary decimal.to convert to Base64, you devide the bits into 6bits per character starting from Left to right. when bits becomes less, you add zeros.<br /><hr />
-  <b>ascii (01000001) = code point 65 = A; = base64 (010000 010000) = code point = 32 = g ( from base64 table binary 01000001 has been converted to base64 text 'g'.</b>
+  <b>ascii (01000001) = code point 65 = A; To base64 (010000 010000) = code point 32 = g ( from base64 table, 8bits ascii binary 01000001 character 'A' has been converted to 6bits base64 binary 010000 010000 character 'g').</b>
+  <b><center>Obfuscated char for A = g</center>
   <hr />
