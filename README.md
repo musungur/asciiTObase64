@@ -4,5 +4,5 @@ Ascii - is data encoding from text(human readable ) to binary represantaion(Mach
 Unlike ascii which is intended for conversion of: human readable text to machine readable binary(8bits per character) for transmission/serialization on a medium,and to their code point in memory storage, Base64 is intended for reversing ascii process by converting ascii binary to Text for transmission on a medium.
 How does Base64 works: (Base64 represents binary in 6bits per character (unlike 8bits per character for ascii)).
 1. Take an standard ascii binary number, i.e: code point 65, in binary (0100 0001) represents character 'A' in binary decimal.to convert to Base64, you devide the bits into 6bits per character starting from Left to right. when bits becomes less, you add zeros.
-  ascii (01000001) = code point 65 = A; = base64 (010000 010000) = code point = 32 = g ( from base64 table binary 01000001 has been converted to base64 text 'g'.
+  <b>ascii (01000001) = code point 65 = A; = base64 (010000 010000) = code point = 32 = g ( from base64 table binary 01000001 has been converted to base64 text 'g'.</b>
   
